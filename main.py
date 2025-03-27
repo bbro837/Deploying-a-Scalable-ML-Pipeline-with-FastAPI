@@ -27,8 +27,8 @@ class Data(BaseModel):
     native_country: str = Field(..., example="United-States", alias="native-country")
 
 # Specify the path for the saved encoder and model
-encoder_path = "path/to/saved/encoder.pkl"  # Replace with the actual path
-model_path = "path/to/saved/model.pkl"  # Replace with the actual path
+encoder_path = "model/encoder.pkl"  # Replace with the actual path
+model_path = "model/model.pkl"  # Replace with the actual path
 
 encoder = load_model(encoder_path)
 model = load_model(model_path)
