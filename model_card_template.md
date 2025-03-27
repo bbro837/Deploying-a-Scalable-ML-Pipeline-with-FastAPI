@@ -33,4 +33,4 @@ Since the model was trained using 1994 census data, it isn't biased towards any 
 
 ## Caveats and Recommendations
 
-The extraction was obtained from the 1994 census data.  Since the dataset is outdated, it cannot be seen as statistically representative of the current population.   It is recommended that this dataset be used for training purposes on ML classification and related issues. 
+The extraction was obtained from the 1994 census data.  Since the dataset is outdated, it cannot be seen as statistically representative of the current population.   It is recommended that the 1994 data should be used for training purposes on ML classification and related issues. 
